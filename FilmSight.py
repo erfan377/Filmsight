@@ -6,7 +6,7 @@ import os
 path = os.path.dirname(os.path.realpath(__file__))
 chars = np.loadtxt(path + "\movie_characters_metadata.txt", dtype = 'str', delimiter= ' +++$+++ ', encoding = 'iso-8859-1', comments = None)
 lines = np.loadtxt(path + "\movie_lines.txt", dtype = 'str',  delimiter= ' +++$+++ ', encoding = 'iso-8859-1', comments = None)
-#minimume number of words required for each character
+#minimum number of words required for each character
 word_limit = 600
 #List of CharIDs of characters 
 charId = []
