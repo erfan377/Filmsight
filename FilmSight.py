@@ -38,8 +38,8 @@ for char_id in charToLine.keys():
 		with open(str(char_id) + '.json', 'w') as fp:
 			fp.write(json.dumps({'contentItems' : dict_out}, indent=4)+ "\n")
 		fp.close()
-#Use if not created a json already 
-'''with open('charToMovie.json', 'w') as fp1:
+
+with open('charToMovie.json', 'w') as fp1:
     json.dump(charToMovie, fp1, sort_keys=True, indent=4)
 fp1.close()
-'''
+
