@@ -1,5 +1,5 @@
 # Filmsight
-### Recommending movie based on character personalities
-#### By Erfan Rostami & Renasha Mishra
+### A reccomender system based on character behavioral and personality traits
+#### By Renasha Mishra & Erfan Rostami 
 
-This AI based project uses Cornell Movie-Dialogs Corpus to create a personality profile for each character in the movies and recommends movies based on the users favorite character in a movie  
+This project uses Cornell Movie-Dialogs Corpus to create a behavioral and personality trait profile for film characters and recommends movies based on the underlying principle of character similarity. 
