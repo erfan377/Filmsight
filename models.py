@@ -36,7 +36,7 @@ kmeans = klearn.cluster.KMeans(n_clusters=8, *, init='k-means++', n_init=10, max
 for mov_ID in Pre_process.movieToVec:
 	movie_vec.append(char_dict[char_ID])
 
-movie_vec = n.asarray(movie_vec)
+movie_vec = np.asarray(movie_vec)
 knn = sklearn.neighbors.NearestNeighbors(*, n_neighbors=5, radius=1.0, algorithm='auto', leaf_size=30, metric='minkowski', p=2, metric_params=None, n_jobs=None).fit(movie_vec)
 
 
