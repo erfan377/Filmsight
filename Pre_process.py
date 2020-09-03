@@ -16,7 +16,7 @@ charId = []
 charToMovie = collections.defaultdict(list)
 #A map from CharID to the list of dialogues they have      
 charToLine = collections.defaultdict(list)
-movieToVec
+movieToVec = collections.defaultdict(list)
 # Use to populate initially 
 '''for fields in chars:
 	charId.append(fields[0])
